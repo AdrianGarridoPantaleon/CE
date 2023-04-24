@@ -1,0 +1,171 @@
+.cover{
+    height: 400px;
+    color: white;
+    background-image: url(img/cielo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(0,0,0,0.5);
+    background-blend-mode:darken;
+}
+
+.card{
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.2),  0 2px 4px -1px rgba(0,0,0,0.06);
+    text-align: center;
+}
+
+h1,h2,h5,p{
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .img-container{
+    overflow: hidden;
+    height: 250px;
+    position: relative;
+    border-radius: 15px;
+  }
+
+  .card:hover .img-container img{
+    transform: scale(1.2);
+  }
+  .card .img-container .promo{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-size: 20px;
+    background: yellow;
+    padding: 15px;
+    color: black;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  .card .info-container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .card .info-container h3{
+    margin: 0;
+  }
+  .card .info-container h3,
+  .card .info-container strong,
+  .card .info-container span{
+    padding: 5px 15px;
+    width: 100%;
+  }
+  .card .add-cart{
+    margin-top: 2px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+  }
+  .card .add-cart:hover{
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+  }
+
+  .container1{
+      background-image: url(img/p1.jpg);
+      background-size: cover;
+      background-position: center;
+      background-color:rgba(0,0,0,0.5);
+      background-blend-mode:darken;
+  }
+
+  .card .img-container1{
+    overflow: hidden;
+    height: 350px;
+    position: relative;
+    border-radius: 15px;
+  }
+
+  .card:hover .img-container1 img{
+    transform: scale(1.2);
+  }
+  .card .img-container1 .promo{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-size: 20px;
+    background: yellow;
+    padding: 15px;
+    color: black;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+
+
+  .container2{
+    background-image: url(img/p2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(0,0,0,0.5);
+    background-blend-mode:darken;
+}
+
+.card .img-container2{
+  overflow: hidden;
+  height: 350px;
+  position: relative;
+  border-radius: 15px;
+}
+
+.card:hover .img-container2 img{
+  transform: scale(1.2);
+}
+.card .img-container2 .promo{
+  position: absolute;
+  top: 10px;
+  left: 0;
+  font-size: 20px;
+  background: yellow;
+  padding: 15px;
+  color: black;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.container3{
+    background-image: url(img/p3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(0,0,0,0.5);
+    background-blend-mode:darken;
+}
+
+.card .img-container3{
+  overflow: hidden;
+  height: 350px;
+  position: relative;
+  border-radius: 15px;
+}
+
+.card:hover .img-container3 img{
+  transform: scale(1.2);
+}
+.card .img-container3 .promo{
+  position: absolute;
+  top: 10px;
+  left: 0;
+  font-size: 20px;
+  background: yellow;
+  padding: 15px;
+  color: black;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+
